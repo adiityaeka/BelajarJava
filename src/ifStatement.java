@@ -56,7 +56,7 @@ public class ifStatement {
         gajiLembur = gajiPokok * persenLembur;
         totalGaji = gajiPokok + gajiLembur;
 
-        System.out.println("Gaji Pokok = " + currency + formatter .format(gajiPokok));
+        System.out.println("\nGaji Pokok = " + currency + formatter .format(gajiPokok));
         System.out.println("Upah Lembur = " + currency + formatter .format(gajiLembur));
         System.out.println("Total Penghasilan : " + currency + formatter .format(totalGaji));
         } else {
