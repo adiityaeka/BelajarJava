@@ -8,7 +8,6 @@ public class ifStatement {
 
         NumberFormat formatter = NumberFormat.getInstance(new Locale("id", "ID"));
 
-
         String currency = "Rp";
         double gaPokA = 5000000;
         double gaPokB = 6500000;
@@ -31,9 +30,9 @@ public class ifStatement {
         if(golongan == 'A'){
             gajiPokok = gaPokA;
         } else if (golongan == 'B') {
-            gajiPokok = gaPokB;;
+            gajiPokok = gaPokB;
         } else if (golongan == 'C') {
-            gajiPokok = gaPokC;;
+            gajiPokok = gaPokC;
         } else{
 
         }
